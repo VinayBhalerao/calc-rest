@@ -8,7 +8,6 @@ import javax.ws.rs.core.MediaType;
 
 @Path("/calc")
 public class HelloResource {
-{
 @GET
 @Produces(MediaType.APPLICATION_JSON)
 public String math(@QueryParam("firstno") double firstno, @QueryParam("secondno") double secondno, @QueryParam("operation") String operation) {
