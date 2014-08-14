@@ -7,7 +7,7 @@ import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
 @Path("/calc")
-public class Calculator
+public class HelloResource {
 {
 @GET
 @Produces(MediaType.APPLICATION_JSON)
