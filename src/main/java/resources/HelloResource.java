@@ -3,20 +3,30 @@ package resources;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.MediaType;
 
-import threescale.v3.api.AuthorizeResponse;
-import threescale.v3.api.ParameterMap;
-import threescale.v3.api.ServerError;
-import threescale.v3.api.ServiceApi;
-import threescale.v3.api.impl.ServiceApiDriver;
+@Path("/calc")
+public class Calculator
+{
+@GET
+@Produces(MediaType.APPLICATION_JSON)
+public String math(@QueryParam("firstno") double firstno, @QueryParam("secondno") double secondno, @QueryParam("operation") String operation) {
+String output = "";
 
-@Path("/hello")
-public class HelloResource {
+if (operation.equals("add")) {
+output = "{ output: " + (firstno + secondno) + " }";
+}
+else if (operation.equals("subtract")) {
+output = "{ output: " + (firstno - secondno) + " }";
+}
+else if (operation.equals("multiply")) {
+output = "{ output: " + (firstno * secondno) + " }";
+}
+else if (operation.equals("divide")) {
+output = "{ output: " + (firstno / secondno) + " }";
+}
 
-    @GET
-    @Produces("text/plan")
-    public String handleGreeting() {
-        return "Hello World of API's";
-    }
-
+return output;
+}
 }
