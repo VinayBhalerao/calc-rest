@@ -14,16 +14,16 @@ Once the deployment is done you can access the API using below url
 
 Add operation:
 -------------
-http://<heroku_url>.herokuapp.com/calc?firstno=1&secondno=2&operation=add
+http://[heroku-url].herokuapp.com/calc?firstno=1&secondno=2&operation=add
 
 Subtract operation:
 ------------
-http://<heroku_url>.herokuapp.com/calc?firstno=1&secondno=2&operation=subtract
+http://[heroku-url].herokuapp.com/calc?firstno=1&secondno=2&operation=subtract
 
 Multiply operation:
 -----------
-http://<heroku_url>.herokuapp.com/calc?firstno=1&secondno=2&operation=multiply
+http://[heroku-url].herokuapp.com/calc?firstno=1&secondno=2&operation=multiply
 
 Divide operation:
 ----------
-http://<heroku_url>.herokuapp.com/calc?firstno=1&secondno=2&operation=dividei
+http://[heroku-url].herokuapp.com/calc?firstno=1&secondno=2&operation=dividei
