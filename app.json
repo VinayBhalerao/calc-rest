@@ -1,0 +1,7 @@
+{
+  "name": "Calc Sample",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/VinayBhalerao/calc-rest",
+  "logo": "https://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["rest", "calc"]
+}
