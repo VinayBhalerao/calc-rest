@@ -1,7 +1,7 @@
 Calculator API implemented in REST
 ==============
 
-This is a sample api based on the prototype by Jesper Joergensen. This has been modified to run on heroku and use it as a calculator webservice
+This is a sample api based on the prototype by Jesper Joergensen. This has been modified to run on heroku and use it as a calculator rest webservice
 
 Deployment
 ----------
@@ -26,4 +26,4 @@ http://[heroku-url].herokuapp.com/calc?firstno=1&secondno=2&operation=multiply
 
 Divide operation:
 ----------
-http://[heroku-url].herokuapp.com/calc?firstno=1&secondno=2&operation=dividei
+http://[heroku-url].herokuapp.com/calc?firstno=1&secondno=2&operation=divide
