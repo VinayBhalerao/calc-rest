@@ -1,4 +1,4 @@
-Calculator webservice implemented in REST
+Calculator API implemented in REST
 ==============
 
 This is a sample api based on the prototype by Jesper Joergensen. This has been modified to run on heroku and use it as a calculator webservice
