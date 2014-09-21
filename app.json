@@ -2,6 +2,6 @@
   "name": "Calculator API Sample",
   "description": "A simple calculator API implemented in REST",
   "repository": "https://github.com/VinayBhalerao/calc-rest",
-  "logo": "",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["rest", "calc"]
 }
